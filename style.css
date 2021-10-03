@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+body {
+	background-color: gray;
+	font-family: 'Ubuntu', sans-serif;
+	color: cadetblue;
+}
+.header_div{
+	background-color: ghostwhite;
+}
+.header_div img{
+	width:100px;
+}
+.main_div{
+	background-color: darkslateblue;
+	padding: 10px;
+	margin-top: 15px;
+	border: 3px solid white;
+}
+.main_div label{
+	background: skyblue;
+	width: 310px;
+	padding: 10px;
+	margin-bottom: 10px;
+	box-shadow: 5px 5px 18px skyblue;
+	border-radius: 20px;
+}
+#cam, #res{
+	border: 2px solid white;
+	width: 310px;
+	height: 300px;
+}
+.main_div button{
+	box-shadow: 5px 5px 18px skyblue;
+	width: 310px;
+	font-size: 16px;
+	border: 1px solid skyblue;
+}
+kbd{
+	margin: 20px;
+	margin-top: 20px;  
+}
+.copyright{
+	position: fixed;
+	color: darkgray;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	height: 50px;
+	text-align: center;
+	line-height: 3;
+}
+[foot]{
+	margin-bottom: 50px;
+	background: lightgrey;
+	border-radius:20px;
+}
+[foot] h4{
+	border-radius: 20px;
+	box-shadow: 5px 5px 18px black;
+	
+}
+.footer_div{
+	margin-bottom: 15%;
+}
